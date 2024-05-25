@@ -1,0 +1,363 @@
+body {
+    font-family: monospace;
+    background-color: #F7F6F6;
+    margin: -30px 0px;
+    color: #203F54;
+}
+.polosa {
+    margin: 0px 25px 0px 900px;
+    height: 10px;
+    border-bottom: 1px solid #508EBF;
+}
+.polosa2 {
+    margin: 60px 25px 0px 430px;
+    height: 25px;
+    border-top: 1px solid #508EBF;
+}
+.nav {
+    background-color: #203F54;
+    padding: 25px 35px 0px 35px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 340px;
+}
+.logo {
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.nav h1 {
+    font-family: serif;
+    font-weight: lighter;
+    color: #DC97A5;
+    font-size: 32px;
+    text-align: right;
+    width: 270px;
+    height: 83px;
+}
+.nav article {
+    border-bottom: 1px solid #F7F6F6;
+}
+.nav nav a{
+    text-decoration: none;
+    color: #F7F6F6;
+    display: block;
+    margin: 25px 0px 25px 0px;
+    font-size: 25px;
+    transition: 0.2s;
+}
+.nav nav a:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.nav nav a:focus {
+    text-shadow: 1px 1px 10px #F7F6F6;
+}
+
+.osoba {
+    font-weight: bold;
+     color: #CCDBEA;
+}
+header {
+    margin: 0px;
+    background-color: #DC97A5;
+            background: url('https://learn.logikaschool.com/uploads/student/2887252/6649e0d32de89.jpg') no-repeat 50% 50%, #203f549b;
+            background-blend-mode: multiply;
+            background-size: cover;
+            font-family: sans-serif;
+            height: 280px;
+}
+header h1 {
+    color: #F7F6F6;
+    text-align: left;
+    font-weight: 100;
+    float: left;
+    margin-left: 900px;
+    text-shadow: 4px -8px 0px #000;
+    font-size: 64px;
+    margin-top: 50px;
+    margin: 50px 0px 15px 900px;
+}
+main {
+    margin: 25px 25px 15px 430px;
+}
+
+main p {
+    font-size: 16px;
+    color: #203F54;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+header h2 {
+    float: left;
+    margin-left: 900px;
+    color: #F7F6F6;
+    font-family: serif;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 100;
+    margin-top: 0px;
+}
+.cover {
+    position: relative;
+    bottom: 280px;
+    width: 452px;
+}
+
+.project {
+    position: relative;
+    top: 190px;
+    background-color: #203F54;
+    height: 90px;
+    margin-left: 853px;
+    margin-right: 0px;
+}
+
+.project nav div {
+    margin-left: -3px;
+    margin-right: -3px;
+    display: inline-block;
+    padding: 0px 80px 0px 80px;
+    border-left: 1px solid rgba(220, 151, 165, 0.5);
+    border-right: 1px solid rgba(220, 151, 165, 0.5);
+}
+.project nav {
+    text-align: center;
+    top: 20px;
+    position: absolute;
+    width: 722px;
+}
+.project nav a {
+    transition: 0.2s;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #DC97A5;
+}
+
+.project nav a:hover {
+    display: block;
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+
+.project a:focus {
+    color: #F7F6F6;
+    text-shadow: 1px 1px 10px #F7F6F6;
+}
+
+.project-osoba {
+    font-weight: bolder;
+}
+
+.sketch a {
+    text-decoration: none;
+    font-style: italic;
+    color: #DC97A5;
+}
+.sketch a:hover {
+    text-decoration: underline;
+}
+.sketch p {
+    font-size: 18px;
+    color: #203F54;
+    text-align: left;
+    font-family: cursive;
+}
+.sketch {
+    position: relative;
+left: 482px;
+bottom: 650px;
+margin-right: 480px;
+}
+
+.manga p {
+    text-align: left;
+    font-weight: 100;
+    font-size: 16px;
+    color: #F7F6F6;
+}
+
+.manga {
+    position: absolute;
+    top: 630px;
+    width: 405px;
+    background-color: #203F54;
+    padding: 20px;
+    border-left: 5px solid #DC97A5;
+    border-right: 5px solid #DC97A5;
+    border-radius: 10px;
+}
+
+.manga ul li {
+    font-size: 16px;
+    color: #DC97A5;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+.manga ul a {
+    text-decoration: none;
+}
+
+.manga ul li:hover {
+transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.manga ul a:focus {
+    text-shadow: 0 0 10px #DC97A5;
+}
+
+h4 {
+    letter-spacing: -1px;
+    font-size: 32px;
+    color: #508EBF;
+    font-style: italic;
+    position: absolute;
+    top: 780px;
+}
+
+.author {
+    margin-top: -540px;
+    letter-spacing: -2px;
+    color: #DC97A5;
+    font-size: 70px;
+}
+
+.authors {
+    border-left: 3px solid #CCDBEA;
+    padding-left: 20px;
+}
+
+.authors p {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+.pink {
+    text-decoration: none;
+    color: #DC97A5;
+    font-style: italic;
+}
+
+.name {
+    margin-top: 50px;
+    color: #508EBF;
+    font-size: 40px;
+    letter-spacing: -2px;
+}
+
+.info {
+    margin-top: 80px;
+    color: #CCDBEA;
+    text-shadow: 0 2px 0 #203f54a9;
+    font-style: italic;
+    text-align: left;
+}
+
+.mary {
+    background: url('https://learn.logikaschool.com/uploads/student/2887252/664b9a6bca61d.png') no-repeat 50% 50%;
+    background-size: cover;
+    width: 386px;
+    height: 1198px;
+    position: absolute;
+    top: 850px;
+    right: 0px;
+}
+
+.part {
+    height: 1082px;
+    margin-right: 390px;
+}
+
+
+
+.top {
+    color: #DC97A5;
+    font-size: 16px;
+    position: absolute;
+    left: 430px;
+    text-decoration: none;
+        transition: 0.5s;
+}
+.top:hover {
+    transition: 0.5s;
+    color: #be6677;
+}
+
+footer {
+    background-color: #508EBF;
+    padding: 20px 15px 15px 420px;
+    height: 154px;
+}
+footer h1 {
+    color: #F7F6F6;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px;
+}
+.footer {
+    position: absolute;
+    margin-top: 15px;
+    font-size: 10px;
+}
+.footer h3 {
+    color: #F7F6F6;
+    font-weight: lighter;
+    margin: 0px;
+    font-size: 11px;
+}
+footer article {
+    position: absolute;
+    width: 127px;
+}
+.Lisa {
+    left: 140px;
+}
+.etc {
+    left: 299px;
+    margin-top: 16px;
+}
+footer a {
+    color: #CCDBEA;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.I {
+    border-left: 1px solid #CCDBEA;
+    padding-left: 10px;
+}
+.social img {
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.social img:hover {
+    transition: 0.3s;
+    border: 5px double #F7F6F6;
+}
+.social {
+    position: absolute;
+    left: 810px;
+    top: 80px;
+        display: inline-flex;
+}
+footer p {
+    width: 200px;
+    font-size: 10px;
+    position: absolute;
+    color: #DC97A5;
+    left: 935px;
+    bottom:15px;
+}
